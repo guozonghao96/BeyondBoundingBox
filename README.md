@@ -1,5 +1,3 @@
-# CVPR2021-1616
-
 ## Introduction
 The code includes training and inference procedures for **Beyond Bounding-Box: Convex-hull Feature Adaptation for Oriented and Densely Packed Object Detection**.
 
