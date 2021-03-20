@@ -45,7 +45,6 @@ CONFIG=dota_configs/beyond_bounding_boxes_demo.py
   title     = {Beyond Bounding-Box: Convex-hull Feature Adaptation for Oriented and Densely Packed Object Detection},
   booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   month     = {June},
-  year      = {2021},
-  
+  year      = {2021}
 }
 ```
