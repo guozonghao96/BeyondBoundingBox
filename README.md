@@ -35,3 +35,14 @@ CONFIG=dota_configs/beyond_bounding_boxes_demo.py
 
 ## Evaluation
 [DOTA_devkit](https://github.com/CAPTAIN-WHU/DOTA_devkit) supplies the evalution details.  
+
+
+## Citing
+@inproceedings{Guo_2021_CVPR,
+  author    = {Zonghao Guo, Chang Liu, Xiaosong Zhang, Jianbin Jiao, Xiangyang Ji and Qixiang Ye},
+  title     = {Beyond Bounding-Box: Convex-hull Feature Adaptation for Oriented and Densely Packed Object Detection},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {June},
+  year      = {2021},
+  
+}
