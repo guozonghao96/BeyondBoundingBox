@@ -1,5 +1,5 @@
 ## Introduction
-The code includes training and inference procedures for **Beyond Bounding-Box: Convex-hull Feature Adaptation for Oriented and Densely Packed Object Detection**.
+The code includes training and inference procedures for **Beyond Bounding-Box: Convex-hull Feature Adaptation for Oriented and Densely Packed Object Detection**(CVPR2021).
 
 ## Installation
 Detection framework is based on the [MMDetection v1.1.0](https://github.com/open-mmlab/mmdetection/tree/v1.1.0).
@@ -38,6 +38,8 @@ CONFIG=dota_configs/beyond_bounding_boxes_demo.py
 
 
 ## Citing
+
+```
 @inproceedings{Guo_2021_CVPR,
   author    = {Zonghao Guo, Chang Liu, Xiaosong Zhang, Jianbin Jiao, Xiangyang Ji and Qixiang Ye},
   title     = {Beyond Bounding-Box: Convex-hull Feature Adaptation for Oriented and Densely Packed Object Detection},
@@ -46,3 +48,4 @@ CONFIG=dota_configs/beyond_bounding_boxes_demo.py
   year      = {2021},
   
 }
+```
