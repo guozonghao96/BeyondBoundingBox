@@ -1,5 +1,12 @@
+# Beyond Bounding-Box: Convex-hull Feature Adaptation for Oriented and Densely Packed Object Detection.(CVPR2021)
+
 ## Introduction
-The code includes training and inference procedures for **Beyond Bounding-Box: Convex-hull Feature Adaptation for Oriented and Densely Packed Object Detection**(CVPR2021).
+Detecting oriented and densely packed objects remains challenging for spatial feature aliasing caused by the intersection of reception fields between objects. In this paper, we propose a convex-hull feature adaptation (CFA) approach for configuring convolutional features in accordance with oriented and densely packed object layouts. CFA is rooted in convex-hull feature representation, which defines a set ofdynamically predicted feature points guided by the convex intersection over union (CIoU) to bound the extent of objects. CFA pursues optimal feature assignment by constructing convex-hull sets and dynamically splitting positive or negative convex-hulls. By simultaneously considering overlapping convex-hulls and objects and penalizing convex-hulls shared by multiple objects, CFA alleviates spatial feature aliasing towards optimal feature adaptation. Experiments on DOTA and SKU110KR datasets show that CFA significantly outperforms the baseline approach, achieving new state-of-the-art detec-
+tion performance.
+![这里随便写文字](docs/motivation.png)
+
+The framework of the CFA is shown as following:
+![这里随便写文字](docs/framework.png)
 
 ## Installation
 Detection framework is based on the [MMDetection v1.1.0](https://github.com/open-mmlab/mmdetection/tree/v1.1.0).
@@ -40,7 +47,7 @@ CONFIG=dota_configs/beyond_bounding_boxes_demo.py
 ## Citing
 
 ```
-@inproceedings{Guo_2021_CVPR,
+@inproceedings{Guo_2021CVPR_CFA,
   author    = {Zonghao Guo, Chang Liu, Xiaosong Zhang, Jianbin Jiao, Xiangyang Ji and Qixiang Ye},
   title     = {Beyond Bounding-Box: Convex-hull Feature Adaptation for Oriented and Densely Packed Object Detection},
   booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
