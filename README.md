@@ -11,10 +11,14 @@ The framework of the CFA is shown as following:
 ![Framework](./docs/framework.pdf)
 
 ## Installation
-Thanks mmlab for re-implementating my code in [mmrotate](https://github.com/open-mmlab/mmrotate).
+Thanks mmlab for re-implementating my code in [mmrotate](https://github.com/open-mmlab/mmrotate). 
+
+Welcome to use it and cite my paper.
 
 My official implementation is as following:
+
 Detection framework is based on the [MMDetection v1.1.0](https://github.com/open-mmlab/mmdetection/tree/v1.1.0).
+
 Please refer to the **Installation** of MMDetection to complete the code environment.
 
 ## Dataset
