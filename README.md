@@ -10,8 +10,7 @@ The framework of the CFA is shown as following:
 
 ![Framework](./docs/framework.pdf)
 
-# Thanks mmlab for re-implementating my code in [mmrotate](https://github.com/open-mmlab/mmrotate). 
-# Welcome to use it and cite my paper.
+# Thanks mmlab for re-implementating my code in [mmrotate](https://github.com/open-mmlab/mmrotate). Welcome to use it and cite my paper.
 
 ## Installation
 
